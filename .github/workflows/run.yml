@@ -2,7 +2,7 @@ name: sspanel_签到
 
 on:
   schedule:
-    - cron: 0 21,06 * * *
+    - cron: 20 13,03 * * *
   watch:
     types: started
 
