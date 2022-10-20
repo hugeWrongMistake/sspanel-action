@@ -57,7 +57,4 @@ def checkin():
     print(resp['msg'])
 
 
-try:
-    checkin()
-except AssertionError as e:
-    print(e.args[0])
+checkin()
